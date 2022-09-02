@@ -15,6 +15,8 @@ function MyApp({Component, pageProps}) {
                     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
                     crossorigin="anonymous"
                 />
+                <link rel="stylesheet"
+                      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
             </Head>
 
             <Script
@@ -25,7 +27,7 @@ function MyApp({Component, pageProps}) {
             <Component {...pageProps} />
             <Footer/>
         </>
-    );
+);
 }
 
 export default MyApp;
