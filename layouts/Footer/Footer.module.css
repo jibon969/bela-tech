@@ -56,13 +56,19 @@
 
 }
 
+.socialMedia a:hover{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #FF5D22;
+    font-size: 18px;
+    position: relative;
+    border-radius: 2px;
+    padding-top: 2px;
 
-.socialLink {
-    padding-left: 0;
-    list-style-type: none;
-    margin-bottom: 0;
-    margin-top: 18px;
 }
+
 
 .footerContactInfo {
     padding-left: 0;
