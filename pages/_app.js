@@ -6,6 +6,7 @@ import Footer from '../layouts/Footer/Footer'
 import HereToHelp from '../src/components/HereToHelp/HereToHelp'
 import Services from '../src/components/Services/Services'
 import ProjectStartArea from '../src/components/ProjectStartArea/ProjectStartArea'
+import Contact from '../src/components/Contact/Contact'
 
 function MyApp({Component, pageProps}) {
     return (
@@ -32,9 +33,10 @@ function MyApp({Component, pageProps}) {
             <HereToHelp/>
             <Services/>
             <ProjectStartArea/>
+            <Contact/>
             <Footer/>
         </>
-);
+    );
 }
 
 export default MyApp;
