@@ -3,6 +3,7 @@ import Script from "next/script"
 import '../styles/globals.css'
 
 import Footer from '../layouts/Footer/Footer'
+import Services from '../src/components/Services/Services'
 import ProjectStartArea from '../src/components/ProjectStartArea/ProjectStartArea'
 
 function MyApp({Component, pageProps}) {
@@ -26,6 +27,7 @@ function MyApp({Component, pageProps}) {
                 crossorigin="anonymous"/>
 
             <Component {...pageProps} />
+            <Services/>
             <ProjectStartArea/>
             <Footer/>
         </>
