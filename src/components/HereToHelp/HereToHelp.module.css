@@ -1,0 +1,50 @@
+
+.hereToHelpArea {
+    background-color: #FEFCF8;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    overflow: hidden;
+    display: block;
+    font-family: Nunito, sans-serif;
+}
+
+.singleServicesBox {
+    margin-bottom: 30px;
+    padding: 50px 30px;
+    border-radius: 5px;
+    transition: .5s;
+    border: 1px solid #f5f3f2;
+    text-align: center;
+    background-color: white;
+}
+
+.mainTitle {
+    font-family: Nunito, sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    text-align: center;
+}
+
+.title {
+    position: relative;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: black;
+    font-family: Nunito, sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+}
+
+.subTitle {
+    font-family: Nunito, sans-serif;
+    text-align: center;
+}
+
+.description {
+    color: #6b6b84;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
