@@ -1,7 +1,7 @@
 import styles from './ProjectStartArea.module.css'
 import Image from 'next/image'
-import projectStart from '../../../src/assets/project-start1.png'
-import circleShape from '../../../src/assets/circle-shape1.png'
+import projectStart from '../../../src/assets/project/project-start1.png'
+import circleShape from '../../../src/assets/shape/circle-shape1.png'
 
 const ProjectStartArea = () => {
     return (
