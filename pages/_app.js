@@ -5,6 +5,7 @@ import '../styles/globals.css'
 import Footer from '../layouts/Footer/Footer'
 import HereToHelp from '../src/components/HereToHelp/HereToHelp'
 import Services from '../src/components/Services/Services'
+import Team from '../src/components/Team/Team'
 import ProjectStartArea from '../src/components/ProjectStartArea/ProjectStartArea'
 import Contact from '../src/components/Contact/Contact'
 
@@ -31,6 +32,7 @@ function MyApp({Component, pageProps}) {
             <Component {...pageProps} />
 
             <HereToHelp/>
+            <Team/>
             <Services/>
             <ProjectStartArea/>
             <Contact/>
