@@ -9,7 +9,6 @@ const Services = () => {
             <div className={styles.servicesArea}>
                 <div className="container">
                      <h2 className="text-center mb-3">We Offer Professional Solutions For Business</h2>
-                     {/*<h2 className="text-center mb-3">Services We Can Help You With</h2>*/}
                     <p className="text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, praesentium!</p>
                     <div className="row">
                         <div className="col-lg-4 col-md-6 col-sm-6">
