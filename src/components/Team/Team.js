@@ -3,295 +3,177 @@ import Image from 'next/image'
 import Link from 'next/link'
 import team from '../../../src/assets/team/team.jpg'
 import team1 from '../../../src/assets/team/team1.jpg'
-import team2 from '../../../src/assets/team/team2.jpg'
+import anjana from '../../../src/assets/team/anjana.png'
 import team3 from '../../../src/assets/team/team2.jpg'
 import team4 from '../../../src/assets/team/team3.jpg'
 
 const Team = () => {
     return (
         <div>
-            <div className={`${styles.team}`}>
+            <section className={styles.team_member}>
                 <div className="container">
-                    <h2 className={`${styles.teamTitle} mb-3`}>Our Team</h2>
-                    <p className="text-center mb-5">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
-                    </p>
+                    <div className="text-center">
+                        <h2 className={styles.teamTitle}>Meet our Team</h2>
+                        <p className={styles.team_sub_title}>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, magnam.
+                        </p>
+                    </div>
                     <div className="row">
-                        <div className="col-lg-3 col-sm-6 mb-4">
-                            <div className={`${styles.customCard} card border-0 shadow`}>
-                                <Image src={team} className="card-img-top" height={450}/>
-                                <div className="card-body text-center pb-0">
-                                    <h5 className="card-title mb-0">Jibon Ahmed</h5>
-                                    <div className="card-text text-black-50">Software Engineer</div>
-                                    <ul className="list-unstyled">
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <Link href="#">
-                                                <a>
-                                                    <i className="fa fa-facebook"/>
-                                                </a>
-                                            </Link>
-
-                                        </li>
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <a href="#">
-                                                <i className="fa fa-linkedin"/>
-                                            </a>
-                                        </li>
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <a href="#">
-                                                <i className="fa fa-instagram"/>
-                                            </a>
-                                        </li>
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <a href="#">
-                                                <i className="fa fa-youtube-square"/>
-                                            </a>
-                                        </li>
-                                    </ul>
+                        <div className="col-md-3 col-sm-6 col-xs-12">
+                            <div className="text-center wow fadeInUp"
+                                 data-wow-duration="1s"
+                                 data-wow-delay="0.5s"
+                                 data-wow-offset="0">
+                                <div className={styles.our_team}>
+                                    <div className={styles.team_img}>
+                                        <Image src={team} alt="team-image"/>
+                                        <ul className={styles.social}>
+                                            <li>
+                                                <Link href="/">
+                                                    <a><i className="fa fa-facebook"/></a>
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link href="/">
+                                                    <a><i className="fa fa-twitter"/></a>
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link href="/">
+                                                    <a><i className="fa fa-linkedin"/></a>
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link href="/">
+                                                    <a><i className="fa fa-instagram"/></a>
+                                                </Link>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className={styles.team_content}>
+                                        <h5 className={styles.title}>Jibon Ahmed</h5>
+                                        <p className={styles.post}>Software Engineer</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-sm-6 mb-4">
-                            <div className={`${styles.customCard} card border-0 shadow`}>
-                                <Image src={team3} className="card-img-top" height={450}/>
-                                <div className="card-body text-center pb-0">
-                                    <h5 className="card-title mb-0">Jibon Ahmed</h5>
-                                    <div className="card-text text-black-50">Software Engineer</div>
-                                    <ul className="list-unstyled">
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <Link href="#">
-                                                <a>
-                                                    <i className="fa fa-facebook"/>
-                                                </a>
-                                            </Link>
-
-                                        </li>
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <a href="#">
-                                                <i className="fa fa-linkedin"/>
-                                            </a>
-                                        </li>
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <a href="#">
-                                                <i className="fa fa-instagram"/>
-                                            </a>
-                                        </li>
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <a href="#">
-                                                <i className="fa fa-youtube-square"/>
-                                            </a>
-                                        </li>
-                                    </ul>
+                        <div className="col-md-3 col-sm-6 col-xs-12">
+                            <div className="text-center wow fadeInUp"
+                                 data-wow-duration="1s"
+                                 data-wow-delay="0.5s"
+                                 data-wow-offset="0">
+                                <div className={styles.our_team}>
+                                    <div className={styles.team_img}>
+                                        <Image src={team4} alt="team-image"/>
+                                        <ul className={styles.social}>
+                                            <li>
+                                                <Link href="/">
+                                                    <a><i className="fa fa-facebook"/></a>
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link href="/">
+                                                    <a><i className="fa fa-twitter"/></a>
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link href="/">
+                                                    <a><i className="fa fa-linkedin"/></a>
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link href="/">
+                                                    <a><i className="fa fa-instagram"/></a>
+                                                </Link>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className={styles.team_content}>
+                                        <h5 className={styles.title}>Masuk Ahmed</h5>
+                                        <p className={styles.post}>Full Stack Software Developer</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-sm-6 mb-4">
-                            <div className={`${styles.customCard} card border-0 shadow`}>
-                                <Image src={team4} className="card-img-top" height={450}/>
-                                <div className="card-body text-center pb-0">
-                                    <h5 className="card-title mb-0">Jibon Ahmed</h5>
-                                    <div className="card-text text-black-50">Software Engineer</div>
-                                    <ul className="list-unstyled">
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <Link href="#">
-                                                <a>
-                                                    <i className="fa fa-facebook"/>
-                                                </a>
-                                            </Link>
-
-                                        </li>
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <a href="#">
-                                                <i className="fa fa-linkedin"/>
-                                            </a>
-                                        </li>
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <a href="#">
-                                                <i className="fa fa-instagram"/>
-                                            </a>
-                                        </li>
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <a href="#">
-                                                <i className="fa fa-youtube-square"/>
-                                            </a>
-                                        </li>
-                                    </ul>
+                        <div className="col-md-3 col-sm-6 col-xs-12">
+                            <div className="text-center wow fadeInUp"
+                                 data-wow-duration="1s"
+                                 data-wow-delay="0.5s"
+                                 data-wow-offset="0">
+                                <div className={styles.our_team}>
+                                    <div className={styles.team_img}>
+                                        <Image src={team3} alt="team-image"/>
+                                        <ul className={styles.social}>
+                                            <li>
+                                                <Link href="/">
+                                                    <a><i className="fa fa-facebook"/></a>
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link href="/">
+                                                    <a><i className="fa fa-twitter"/></a>
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link href="/">
+                                                    <a><i className="fa fa-linkedin"/></a>
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link href="/">
+                                                    <a><i className="fa fa-instagram"/></a>
+                                                </Link>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className={styles.team_content}>
+                                        <h5 className={styles.title}>Tasnia Farin</h5>
+                                        <p className={styles.post}>Software Tester</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-sm-6 mb-4">
-                            <div className={`${styles.customCard} card border-0 shadow`}>
-                                <Image src={team2} className="card-img-top" height={450}/>
-                                <div className="card-body text-center pb-0">
-                                    <h5 className="card-title mb-0">Jibon Ahmed</h5>
-                                    <div className="card-text text-black-50">Software Engineer</div>
-                                    <ul className="list-unstyled">
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <Link href="#">
-                                                <a>
-                                                    <i className="fa fa-facebook"/>
-                                                </a>
-                                            </Link>
-
-                                        </li>
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <a href="#">
-                                                <i className="fa fa-linkedin"/>
-                                            </a>
-                                        </li>
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <a href="#">
-                                                <i className="fa fa-instagram"/>
-                                            </a>
-                                        </li>
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <a href="#">
-                                                <i className="fa fa-youtube-square"/>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-sm-6 mb-4">
-                            <div className={`${styles.customCard} card border-0 shadow`}>
-                                <Image src={team1} className="card-img-top" height={450}/>
-                                <div className="card-body text-center pb-0">
-                                    <h5 className="card-title mb-0">Jibon Ahmed</h5>
-                                    <div className="card-text text-black-50">Software Engineer</div>
-                                    <ul className="list-unstyled">
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <Link href="#">
-                                                <a>
-                                                    <i className="fa fa-facebook"/>
-                                                </a>
-                                            </Link>
-
-                                        </li>
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <a href="#">
-                                                <i className="fa fa-linkedin"/>
-                                            </a>
-                                        </li>
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <a href="#">
-                                                <i className="fa fa-instagram"/>
-                                            </a>
-                                        </li>
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <a href="#">
-                                                <i className="fa fa-youtube-square"/>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-sm-6 mb-4">
-                            <div className={`${styles.customCard} card border-0 shadow`}>
-                                <Image src={team} className="card-img-top" height={450}/>
-                                <div className="card-body text-center pb-0">
-                                    <h5 className="card-title mb-0">Jibon Ahmed</h5>
-                                    <div className="card-text text-black-50">Software Engineer</div>
-                                    <ul className="list-unstyled">
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <Link href="#">
-                                                <a>
-                                                    <i className="fa fa-facebook"/>
-                                                </a>
-                                            </Link>
-
-                                        </li>
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <a href="#">
-                                                <i className="fa fa-linkedin"/>
-                                            </a>
-                                        </li>
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <a href="#">
-                                                <i className="fa fa-instagram"/>
-                                            </a>
-                                        </li>
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <a href="#">
-                                                <i className="fa fa-youtube-square"/>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-sm-6 mb-4">
-                            <div className={`${styles.customCard} card border-0 shadow`}>
-                                <Image src={team3} className="card-img-top" height={450}/>
-                                <div className="card-body text-center pb-0">
-                                    <h5 className="card-title mb-0">Jibon Ahmed</h5>
-                                    <div className="card-text text-black-50">Software Engineer</div>
-                                    <ul className="list-unstyled">
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <Link href="#">
-                                                <a>
-                                                    <i className="fa fa-facebook"/>
-                                                </a>
-                                            </Link>
-
-                                        </li>
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <a href="#">
-                                                <i className="fa fa-linkedin"/>
-                                            </a>
-                                        </li>
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <a href="#">
-                                                <i className="fa fa-instagram"/>
-                                            </a>
-                                        </li>
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <a href="#">
-                                                <i className="fa fa-youtube-square"/>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-sm-6 mb-4">
-                            <div className={`${styles.customCard} card border-0 shadow`}>
-                                <Image src={team4} className="card-img-top" height={450}/>
-                                <div className="card-body text-center pb-0">
-                                    <h5 className="card-title mb-0">Jibon Ahmed</h5>
-                                    <div className="card-text text-black-50">Software Engineer</div>
-                                    <ul className="list-unstyled">
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <Link href="#">
-                                                <a>
-                                                    <i className="fa fa-facebook"/>
-                                                </a>
-                                            </Link>
-
-                                        </li>
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <a href="#">
-                                                <i className="fa fa-linkedin"/>
-                                            </a>
-                                        </li>
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <a href="#">
-                                                <i className="fa fa-instagram"/>
-                                            </a>
-                                        </li>
-                                        <li className={`${styles.socialMedia} list-inline-item`}>
-                                            <a href="#">
-                                                <i className="fa fa-youtube-square"/>
-                                            </a>
-                                        </li>
-                                    </ul>
+                        <div className="col-md-3 col-sm-6 col-xs-12">
+                            <div className="text-center wow fadeInUp"
+                                 data-wow-duration="1s"
+                                 data-wow-delay="0.5s"
+                                 data-wow-offset="0">
+                                <div className={styles.our_team}>
+                                    <div className={styles.team_img}>
+                                        <Image src={anjana} alt="team-image"/>
+                                        <ul className={styles.social}>
+                                            <li>
+                                                <Link href="/">
+                                                    <a><i className="fa fa-facebook"/></a>
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link href="/">
+                                                    <a><i className="fa fa-twitter"/></a>
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link href="/">
+                                                    <a><i className="fa fa-linkedin"/></a>
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link href="/">
+                                                    <a><i className="fa fa-instagram"/></a>
+                                                </Link>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className={styles.team_content}>
+                                        <h5 className={styles.title}>Anjana Vakil</h5>
+                                        <p className={styles.post}>UI/Ux Engineer</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
     )
 };
