@@ -1,8 +1,15 @@
 
-.team {
+.team_member {
+    /*background: rgba(199, 201, 209, .09);*/
+    background-color: white;
+    padding-bottom: 50px;
+    overflow: hidden;
     padding-top: 100px;
-    padding-bottom: 70px;
-    background-color: #ffffff;
+}
+
+.our_team {
+    margin-bottom: 30px;
+    box-shadow: 0 10px 40px -10px rgba(0, 64, 128, .09);
 }
 
 .teamTitle {
@@ -11,48 +18,130 @@
     text-align: center;
 }
 
-.customCard:hover {
-    /*transform: translateY(-4px) scale(1.01);*/
-    transform: translateY(-5px) scale(1.005) translateZ(0);
+.team_sub_title {
+    font-family: Nunito, sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-.socialMedia {
-    margin-top: 10px;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    color: #fff;
-    background-color: #6b6b84;
-    font-size: 18px;
+.our_team .team_img {
     position: relative;
-    border-radius: 50px;
-    padding-top: 2px;
+    overflow: hidden;
 }
 
-.socialMedia:hover {
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    color: #fff;
-    background-color: #FF5D22;
-    font-size: 18px;
-    position: relative;
-    border-radius: 50px;
-    padding-top: 2px;
-
+.our_team .team_img:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    transition: all 0.3s ease 0s;
 }
 
-.socialMedia a:hover,
-.socialMedia:hover {
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    color: #fff;
-    background-color: #FF5D22;
-    font-size: 18px;
-    position: relative;
-    border-radius: 50px;
-    padding-top: 2px;
+.our_team:hover .team_img:after {
+    bottom: 0;
+}
 
+.our_team img {
+    width: 100%;
+    height: auto;
+}
+
+.our_team .social {
+    padding: 0 0 18px 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    top: -100%;
+    right: 10px;
+    background: #ffaa17;
+    border-radius: 0 0 20px 20px;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.our_team:hover .social {
+    top: 0;
+}
+
+.our_team .social li a {
+    display: block;
+    padding: 15px;
+    font-size: 15px;
+    color: #232434;
+}
+
+.our_team:hover .social li a:hover {
+    color: #fff;
+}
+
+.our_team .team_content {
+    padding: 20px 0;
+    background: #fff;
+}
+
+.our_team .title {
+    font-family: Nunito, sans-serif;
+    font-weight: 800;
+    color: #232434;
+    text-transform: capitalize;
+    margin: 0 0 20px;
+    position: relative;
+}
+
+.our_team .title:before {
+    content: "";
+    width: 25px;
+    height: 1px;
+    background: #ffaa17;
+    position: absolute;
+    bottom: -10px;
+    right: 50%;
+    margin-right: 9px;
+    transition-duration: 0.25s;
+}
+
+.our_team .title:after {
+    content: "";
+    width: 25px;
+    height: 1px;
+    background: #ffaa17;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin-left: 9px;
+    transition-duration: 0.25s;
+}
+
+.our_team:hover .title:before,
+.our_team:hover .title:after {
+    width: 50px;
+}
+
+.our_team .post {
+    display: inline-block;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #7F7F7F;
+}
+
+.our_team .post:before {
+    content: "";
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #ffaa17;
+    margin: 0 auto;
+    position: relative;
+    top: -13px;
+}
+
+@media only screen and (max-width: 990px) {
+    .our_team {
+        margin-bottom: 30px;
+    }
 }
 
