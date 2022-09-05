@@ -10,15 +10,17 @@ import team4 from '../../../src/assets/team/team3.jpg'
 const Testimonial = () => {
     return (
         <div>
-            <section className={styles.testimonial}>
+            <div className={styles.testimonialSection}>
                 <div className="container">
                     <div className="row">
                         <div className="col">
-                            <h4>Testimonial</h4>
+                            <h4>Hello</h4>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+
+
         </div>
     )
 };

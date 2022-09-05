@@ -34,11 +34,13 @@ function MyApp({Component, pageProps}) {
 
             <Component {...pageProps} />
 
+
+            {/*<Testimonial/>*/}
+
+            {/*<ProjectStartArea/>*/}
             <HereToHelp/>
-            <Testimonial/>
-            <Team/>
             <Services/>
-            <ProjectStartArea/>
+            <Team/>
             <Contact/>
             <Footer/>
         </>
