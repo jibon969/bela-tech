@@ -8,6 +8,7 @@ import Services from '../src/components/Services/Services'
 import Team from '../src/components/Team/Team'
 import ProjectStartArea from '../src/components/ProjectStartArea/ProjectStartArea'
 import Contact from '../src/components/Contact/Contact'
+import Testimonial from '../src/components/Testimonial/Testimonial'
 
 function MyApp({Component, pageProps}) {
     return (
@@ -33,10 +34,13 @@ function MyApp({Component, pageProps}) {
 
             <Component {...pageProps} />
 
+
+            {/*<Testimonial/>*/}
+
+            {/*<ProjectStartArea/>*/}
             <HereToHelp/>
-            <Team/>
             <Services/>
-            <ProjectStartArea/>
+            <Team/>
             <Contact/>
             <Footer/>
         </>

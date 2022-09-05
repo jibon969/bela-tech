@@ -18,7 +18,7 @@ const Services = () => {
                                 </div>
                                 <h3>
                                     <Link href="/">
-                                        <a>Data Analytics</a>
+                                        <a>Any Website</a>
                                     </Link>
                                 </h3>
                                 <p>
@@ -37,7 +37,7 @@ const Services = () => {
                                 </div>
                                 <h3>
                                     <Link href="/">
-                                        <a>Data Analytics</a>
+                                        <a>eCommerce</a>
                                     </Link>
                                 </h3>
                                 <p>
@@ -56,7 +56,7 @@ const Services = () => {
                                 </div>
                                 <h3>
                                     <Link href="/">
-                                        <a>Data Analytics</a>
+                                        <a>Apps (IOS/ Android)</a>
                                     </Link>
                                 </h3>
                                 <p>

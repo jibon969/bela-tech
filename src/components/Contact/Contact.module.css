@@ -1,50 +1,12 @@
 
-.contactWrap {
-    padding-top: 100px;
-    padding-bottom: 70px;
-    overflow: hidden;
-    display: block;
-    background-color: #F5F5F5;
-}
-
-.contactInfoBox {
-    margin-bottom: 30px;
-    position: relative;
-    padding-left: 100px;
-    z-index: 1;
-}
-
-.icon {
-    margin-top: 10px;
-    height: 90px;
-    width: 70px;
-    text-align: center;
-    font-size: 40px;
-    background-color: #FFFFFF;
-    border-radius: 5px;
-
-}
-
-.icon i {
-    margin-top: 40% !important;
-}
-
-.icon:hover {
-    margin: auto;
-    height: 100px;
-    width: 70px;
-    text-align: center;
-    font-size: 40px;
-    background-color: #FF5D22;
-    border-radius: 5px;
-    color: white;
-}
-
 .contactArea {
     padding-top: 100px;
     padding-bottom: 70px;
     font-family: Nunito, sans-serif;
     font-weight: 800;
+    overflow: hidden;
+    display: block;
+    background-color: #F5F5F5;
 }
 
 .sectionTitle {
@@ -68,7 +30,7 @@
 .contactForm {
     padding: 40px;
     margin-left: 15px;
-    /*box-shadow: 0 0 20px;*/
+    box-shadow: 0 0 10px;
     background-color: #fff
 }
 
@@ -130,4 +92,14 @@
     padding: 12px 35px 12px 35px;
     font-weight: 700;
     font-size: 16px;
+}
+
+.icon, .text {
+    display: inline;
+}
+
+.text {
+    line-height: 20px;
+    vertical-align: top;
+    margin-left: 8px;
 }
