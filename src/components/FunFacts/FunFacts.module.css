@@ -1,0 +1,16 @@
+
+.funFactsSection {
+    padding-top: 100px;
+    padding-bottom: 70px;
+    color: white;
+    background-color: #221638;
+    background-position: 50%;
+    background-image: url("../../assets/banner/funfacts-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.image {
+    display: flex;
+}
