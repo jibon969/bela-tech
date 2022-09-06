@@ -11,6 +11,7 @@ import Contact from '../src/components/Contact/Contact'
 // import Testimonial from '../src/components/Testimonial/Testimonial'
 
 import FunFacts from '../src/components/FunFacts/FunFacts'
+import Solutions from '../src/components/Solutions/Solutions'
 
 function MyApp({Component, pageProps}) {
     return (
@@ -43,8 +44,10 @@ function MyApp({Component, pageProps}) {
             <HereToHelp/>
             <Services/>
             <Team/>
-            <FunFacts/>
+
             <Project/>
+            <FunFacts/>
+            <Solutions/>
             <Contact/>
             <Footer/>
         </>

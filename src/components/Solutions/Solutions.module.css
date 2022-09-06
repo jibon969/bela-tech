@@ -1,0 +1,116 @@
+
+.solutionsArea {
+    /*background-color: #f1f8fb;*/
+    background-color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    overflow: hidden;
+    display: block;
+}
+
+.solutionsTitleWrap {
+    font-family: Nunito, sans-serif;
+    text-align: center;
+}
+
+.solutionsTitle {
+    font-weight: 800;
+}
+
+.solutions_sub_title {
+    margin-bottom: 50px;
+}
+
+.singleServicesBox {
+    margin-bottom: 30px;
+    padding: 50px 30px;
+    border-radius: 5px;
+    transition: .5s;
+    border: 1px solid #f5f3f2;
+    text-align: center;
+    background-color: white;
+}
+
+.singleServicesBox p {
+    margin-bottom: 5px;
+}
+
+.viewDetailsBtn {
+    display: inline-block;
+    color: #ff5d22;
+    margin-top: 10px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.viewDetailsBtn:hover {
+    border-bottom-color: #ff5d22;
+}
+
+.singleServicesBox:hover {
+    border: 1px solid #ff5d22;
+}
+
+.design {
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.our_mission_list {
+    padding-left: 0;
+    list-style-type: none;
+    overflow: hidden;
+    padding-bottom: 7px;
+    margin: -20px -15px 30px;
+}
+
+.our_mission_list li i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+    line-height: 41px;
+    text-align: center;
+    transition: .5s;
+    background-color: #deecf4;
+    font-size: 20px;
+}
+
+.designDevelopment {
+    margin-top: 100px;
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+    .designDevelopment {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .designDevelopment {
+        margin-top: 120px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .designDevelopment {
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .designDevelopment {
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 1199.98px) and (max-width: 1400px) {
+    .designDevelopment {
+        margin-top: 100px;
+    }
+}
