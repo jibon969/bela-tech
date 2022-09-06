@@ -6,7 +6,7 @@ import Footer from '../layouts/Footer/Footer'
 import HereToHelp from '../src/components/HereToHelp/HereToHelp'
 import Services from '../src/components/Services/Services'
 import Team from '../src/components/Team/Team'
-import ProjectStartArea from '../src/components/ProjectStartArea/ProjectStartArea'
+import Project from '../src/components/Project/Project'
 import Contact from '../src/components/Contact/Contact'
 import Testimonial from '../src/components/Testimonial/Testimonial'
 
@@ -35,12 +35,14 @@ function MyApp({Component, pageProps}) {
             <Component {...pageProps} />
 
 
-            {/*<Testimonial/>*/}
 
-            {/*<ProjectStartArea/>*/}
+
+
             <HereToHelp/>
             <Services/>
             <Team/>
+            <Project/>
+            <Testimonial/>
             <Contact/>
             <Footer/>
         </>

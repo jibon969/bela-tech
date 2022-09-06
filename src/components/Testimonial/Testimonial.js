@@ -14,13 +14,11 @@ const Testimonial = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col">
-                            <h4>Hello</h4>
+                            <h4>Testimonial </h4>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
     )
 };
