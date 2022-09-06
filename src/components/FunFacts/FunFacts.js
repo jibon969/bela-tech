@@ -1,14 +1,14 @@
-import styles from './Testimonial.module.css'
+import styles from './FunFacts.module.css'
 import Image from 'next/image'
 import fun from '../../../src/assets/funfacts/fun-icon1.png'
 import fun2 from '../../../src/assets/funfacts/fun-icon2.png'
 import fun3 from '../../../src/assets/funfacts/fun-icon3.png'
 import fun4 from '../../../src/assets/funfacts/fun-icon4.png'
 
-const Testimonial = () => {
+const FunFacts = () => {
     return (
         <div>
-            <div className={styles.testimonialSection}>
+            <div className={styles.funFactsSection}>
                 <div className="container">
                     <div className="row">
                         <div className="col-md-3 mb-4">
@@ -53,4 +53,4 @@ const Testimonial = () => {
         </div>
     )
 };
-export default Testimonial;
+export default FunFacts;
