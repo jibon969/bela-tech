@@ -2,6 +2,7 @@ import Head from "next/head";
 import Script from "next/script"
 import '../styles/globals.css'
 
+import Navbar from '../layouts/Navbar/Navbar'
 import Footer from '../layouts/Footer/Footer'
 import HereToHelp from '../src/components/HereToHelp/HereToHelp'
 import Services from '../src/components/Services/Services'
@@ -35,10 +36,8 @@ function MyApp({Component, pageProps}) {
                 integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
                 crossorigin="anonymous"/>
 
+            <Navbar/>
             <Component {...pageProps} />
-
-
-
 
 
             <HereToHelp/>
