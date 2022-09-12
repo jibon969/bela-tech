@@ -9,7 +9,7 @@ import djangoRest from '../../../src/assets/logo/djangoRest.png'
 import react from '../../../src/assets/logo/react.png'
 import reactNative from '../../../src/assets/logo/react-native.png'
 import nextjs from '../../../src/assets/logo/nextjs.png'
-import eCommerce from '../../../src/assets/logo/eCommerce.jpg'
+import database from '../../../src/assets/logo/database.png'
 import uiUx from '../../../src/assets/logo/ui-ux.jpg'
 
 const Solutions = () => {
@@ -187,6 +187,17 @@ const Solutions = () => {
                                         </div>
                                         <div className="col-md-4">
                                             <Image src={reactNative}/>
+                                        </div>
+                                        <div className="col-md-4">
+                                            <Image src={nextjs}/>
+                                        </div>
+                                    </div>
+                                    <div className="row">
+                                        <div className="col-md-4">
+                                            <Image src={uiUx}/>
+                                        </div>
+                                        <div className="col-md-4">
+                                            <Image src={database}/>
                                         </div>
                                         <div className="col-md-4">
                                             <Image src={nextjs}/>
