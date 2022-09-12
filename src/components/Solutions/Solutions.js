@@ -3,6 +3,14 @@ import Image from 'next/image'
 import Link from 'next/link'
 import service1 from '../../../src/assets/service/service-icon1.png'
 import service2 from '../../../src/assets/service/service2.png'
+import python from '../../../src/assets/logo/python2.jpg'
+import django from '../../../src/assets/logo/django.png'
+import djangoRest from '../../../src/assets/logo/djangoRest.png'
+import react from '../../../src/assets/logo/react.png'
+import reactNative from '../../../src/assets/logo/react-native.png'
+import nextjs from '../../../src/assets/logo/nextjs.png'
+import eCommerce from '../../../src/assets/logo/eCommerce.jpg'
+import uiUx from '../../../src/assets/logo/ui-ux.jpg'
 
 const Solutions = () => {
     return (
@@ -163,11 +171,25 @@ const Solutions = () => {
                                 </div>
                                 <div className="row">
                                     <div className="row">
-                                        <div className="col-md-3">
-                                            <h3>Hello</h3>
+                                        <div className="col-md-4">
+                                            <Image src={djangoRest}/>
                                         </div>
-                                        <div className="col-md-3">
-                                            <Image src={service2}/>
+                                        <div className="col-md-4">
+                                            <Image src={django}/>
+                                        </div>
+                                        <div className="col-md-4">
+                                            <Image src={python}/>
+                                        </div>
+                                    </div>
+                                    <div className="row">
+                                        <div className="col-md-4">
+                                            <Image src={react}/>
+                                        </div>
+                                        <div className="col-md-4">
+                                            <Image src={reactNative}/>
+                                        </div>
+                                        <div className="col-md-4">
+                                            <Image src={nextjs}/>
                                         </div>
                                     </div>
                                 </div>
