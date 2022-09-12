@@ -83,24 +83,28 @@ const Solutions = () => {
                                 <div className="row">
                                     <div className="col-md-6">
                                         <div className={styles.design}>
-                                            <h5><i className="fa fa-check mx-2" aria-hidden="true"/> Responsive Design</h5>
+                                            <h5><i className="fa fa-check mx-2" aria-hidden="true"/> Responsive Design
+                                            </h5>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
                                         <div className={styles.design}>
-                                            <h5><i className="fa fa-check mx-2" aria-hidden="true"/> React Development</h5>
+                                            <h5><i className="fa fa-check mx-2" aria-hidden="true"/> React Development
+                                            </h5>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6">
                                         <div className={styles.design}>
-                                            <h5><i className="fa fa-check mx-2" aria-hidden="true"/> NextJs Development</h5>
+                                            <h5><i className="fa fa-check mx-2" aria-hidden="true"/> NextJs Development
+                                            </h5>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
                                         <div className={styles.design}>
-                                            <h5><i className="fa fa-check mx-2" aria-hidden="true"/> Apps Development</h5>
+                                            <h5><i className="fa fa-check mx-2" aria-hidden="true"/> Apps Development
+                                            </h5>
                                         </div>
                                     </div>
                                 </div>
@@ -112,7 +116,8 @@ const Solutions = () => {
                                     </div>
                                     <div className="col-md-6">
                                         <div className={styles.design}>
-                                            <h5><i className="fa fa-check mx-2" aria-hidden="true"/> E-commerce Design</h5>
+                                            <h5><i className="fa fa-check mx-2" aria-hidden="true"/> E-commerce Design
+                                            </h5>
                                         </div>
                                     </div>
                                 </div>
@@ -124,7 +129,45 @@ const Solutions = () => {
                                     </div>
                                     <div className="col-md-6">
                                         <div className={styles.design}>
-                                            <h5><i className="fa fa-check mx-2" aria-hidden="true"/> Print Ready Design</h5>
+                                            <h5><i className="fa fa-check mx-2" aria-hidden="true"/> Print Ready Design
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-md-6">
+                                        <div className={styles.design}>
+                                            <h5><i className="fa fa-check mx-2" aria-hidden="true"/> Python</h5>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <div className={styles.design}>
+                                            <h5><i className="fa fa-check mx-2" aria-hidden="true"/> Django
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-md-6 mb-4">
+                                        <div className={styles.design}>
+                                            <h5><i className="fa fa-check mx-2" aria-hidden="true"/> Django REST </h5>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 mb-4">
+                                        <div className={styles.design}>
+                                            <h5>
+                                                <i className="fa fa-check mx-2" aria-hidden="true"/> DevOps
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="row">
+                                        <div className="col-md-3">
+                                            <h3>Hello</h3>
+                                        </div>
+                                        <div className="col-md-3">
+                                            <Image src={service2}/>
                                         </div>
                                     </div>
                                 </div>
