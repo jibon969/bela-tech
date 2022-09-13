@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <>
             <header>
-                <nav className="navbar navbar-expand-lg navbar-light fixed-top p-3 bg-primary mb-5">
+                <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top p-3">
                     <div className="container-fluid">
                         <button
                             className="navbar-toggler"
