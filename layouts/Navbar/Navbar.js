@@ -4,8 +4,8 @@ const Navbar = () => {
     return (
         <>
             <header>
-                <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top p-2">
-                    <div className="container-fluid bg-danger">
+                <nav className="navbar navbar-expand-lg navbar-light fixed-top p-3 bg-primary mb-5">
+                    <div className="container-fluid">
                         <button
                             className="navbar-toggler"
                             type="button"
@@ -38,5 +38,6 @@ const Navbar = () => {
         </>
     )
 };
+
 
 export default Navbar;
