@@ -14,8 +14,12 @@ const Team = () => {
                 <div className="container">
                     <div className="text-center">
                         <h2 className={styles.teamTitle}>Meet our Team</h2>
-                        <p className={styles.team_sub_title}>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, magnam.
+                        <p className={styles.team_sub_title}>Our team is what makes us who we are.
+                            The work, the banter and the willingness to go the extra mile have helped us succeed as a
+                            business.
+                            <br/>
+                            Whatever tomorrow brings, we are confident that our people and work culture will play a big
+                            part of our success.
                         </p>
                     </div>
                     <div className="row">
