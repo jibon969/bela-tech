@@ -60,7 +60,7 @@ const Navbar = () => {
                                     <a className={`${styles.navItem} nav-item nav-link text-white`}>Team</a>
                                 </Link>
                                 <Link href="/">
-                                    <a className={`${styles.navItem} nav-item nav-link text-white`}>Team</a>
+                                    <a className={`${styles.navItem} nav-item nav-link text-white`}>Contact</a>
                                 </Link>
                             </div>
                         </div>

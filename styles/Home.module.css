@@ -1,4 +1,10 @@
 
+.bgColor{
+    background-color: #E9EBEC;
+    color: black;
+    padding: 70px;
+    border-color: red;
+}
 .defaultBtn {
     border: none;
     position: relative;
