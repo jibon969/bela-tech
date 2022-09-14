@@ -4,15 +4,6 @@ import '../styles/globals.css'
 
 import Navbar from '../layouts/Navbar/Navbar'
 import Footer from '../layouts/Footer/Footer'
-import HereToHelp from '../src/components/HereToHelp/HereToHelp'
-import Services from '../src/components/Services/Services'
-import Team from '../src/components/Team/Team'
-import Project from '../src/components/Project/Project'
-import Contact from '../src/components/Contact/Contact'
-// import Testimonial from '../src/components/Testimonial/Testimonial'
-
-import FunFacts from '../src/components/FunFacts/FunFacts'
-import Solutions from '../src/components/Solutions/Solutions'
 
 function MyApp({Component, pageProps}) {
     return (
@@ -38,16 +29,6 @@ function MyApp({Component, pageProps}) {
 
             <Navbar/>
             <Component {...pageProps} />
-
-
-            <HereToHelp/>
-            <Services/>
-            <Team/>
-
-            <Project/>
-            <FunFacts/>
-            <Solutions/>
-            <Contact/>
             <Footer/>
         </>
     );

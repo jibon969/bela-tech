@@ -34,7 +34,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </section>
-            <header className={`${styles.header} sticky-top`}>
+            <div className={`${styles.header} sticky-top`}>
                 <nav className={`${styles.headerBackground} navbar navbar-expand-lg navbar-dark`}>
                     <div className="container">
                         <a href="#" className="navbar-brand">Belatech</a>
@@ -66,7 +66,7 @@ const Navbar = () => {
                         </div>
                     </div>
                 </nav>
-            </header>
+            </div>
         </>
     )
 };
