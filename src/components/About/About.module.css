@@ -1,0 +1,129 @@
+
+.aboutArea {
+    padding-top: 100px;
+    padding-bottom: 70px;
+    font-family: Nunito, sans-serif;
+    overflow: hidden;
+    display: block;
+    background-color: #FFFFFF;
+}
+
+.aboutTitleWrap {
+    font-family: Nunito, sans-serif;
+    text-align: center;
+}
+
+.aboutTitle {
+    font-weight: 800;
+}
+
+.about_sub_title {
+    margin-bottom: 50px;
+}
+
+.singleBox {
+    margin-bottom: 30px;
+    padding: 50px 30px;
+    border-radius: 5px;
+    transition: .5s;
+    border: 1px solid #f5f3f2;
+    text-align: center;
+    background-color: white;
+}
+
+.singleBox p {
+    margin-bottom: 5px;
+}
+
+.viewDetailsBtn {
+    display: inline-block;
+    color: #ff5d22;
+    margin-top: 10px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.viewDetailsBtn:hover {
+    border-bottom-color: #ff5d22;
+}
+
+.singleBox:hover {
+    border: 1px solid #ff5d22;
+}
+
+.designDevelopment {
+    margin-top: 10px;
+}
+
+.designDevelopmentTitle {
+    font-family: Nunito, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin: 20px;
+    border-color: red;
+}
+
+.lineContent {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.line {
+    width: 20%;
+    height: 0;
+    border: 1px solid #C4C4C4;
+    margin: 3px;
+    display: inline-block;
+}
+
+.lineBlock {
+    display: inline-block;
+}
+
+.singleServicesBox {
+    margin-bottom: 30px;
+    padding: 50px 30px;
+    border-radius: 5px;
+    transition: .5s;
+    border: 1px solid #f5f3f2;
+    text-align: center;
+    background-color: white;
+}
+
+.mainTitle {
+    font-family: Nunito, sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    text-align: center;
+}
+
+.title {
+    position: relative;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: black;
+    font-family: Nunito, sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+}
+
+.subTitle {
+    font-family: Nunito, sans-serif;
+    text-align: center;
+}
+
+.description {
+    color: #6b6b84;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+.design {
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 3px;
+}
