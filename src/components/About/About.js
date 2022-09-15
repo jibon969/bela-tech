@@ -86,139 +86,142 @@ const About = () => {
                         </div>
                     </div>
                     <div className={styles.designDevelopment}>
-                        <div className={styles.lineContent}>
-                            <div className={styles.line}/>
-                            <div className={styles.lineBlock}>
-                                <h1 className={styles.designDevelopmentTitle}>We’re Here To Help</h1>
-                            </div>
-                            <div className={styles.line}/>
-                        </div>
                         <div className="row">
-                            <div className="col-md-7">
+                            <div className="col-md-6">
+                                <h3 className="mb-3">Design & Development</h3>
+                                <p className="mb-5">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna.
+                                </p>
                                 <div className="row">
-                                    <div className="col-md-6">
-                                        <div className={styles.design}>
-                                            <h5><i className="fa fa-check mx-2" aria-hidden="true"/> Responsive Design
-                                            </h5>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6">
-                                        <div className={styles.design}>
-                                            <h5><i className="fa fa-check mx-2" aria-hidden="true"/> React Development
-                                            </h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="row">
-                                    <div className="col-md-6">
-                                        <div className={styles.design}>
-                                            <h5><i className="fa fa-check mx-2" aria-hidden="true"/> NextJs Development
-                                            </h5>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6">
-                                        <div className={styles.design}>
-                                            <h5><i className="fa fa-check mx-2" aria-hidden="true"/> Apps Development
-                                            </h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="row">
-                                    <div className="col-md-6">
-                                        <div className={styles.design}>
-                                            <h5><i className="fa fa-check mx-2" aria-hidden="true"/> UX/UI Design</h5>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6">
-                                        <div className={styles.design}>
-                                            <h5><i className="fa fa-check mx-2" aria-hidden="true"/> E-commerce Design
-                                            </h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="row">
-                                    <div className="col-md-6">
-                                        <div className={styles.design}>
-                                            <h5><i className="fa fa-check mx-2" aria-hidden="true"/> Web Design</h5>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6">
-                                        <div className={styles.design}>
-                                            <h5><i className="fa fa-check mx-2" aria-hidden="true"/> Print Ready Design
-                                            </h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="row">
-                                    <div className="col-md-6">
-                                        <div className={styles.design}>
-                                            <h5><i className="fa fa-check mx-2" aria-hidden="true"/> Python</h5>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6">
-                                        <div className={styles.design}>
-                                            <h5><i className="fa fa-check mx-2" aria-hidden="true"/> Django
-                                            </h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="row">
-                                    <div className="col-md-6 mb-4">
-                                        <div className={styles.design}>
-                                            <h5><i className="fa fa-check mx-2" aria-hidden="true"/> Django REST </h5>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6 mb-4">
-                                        <div className={styles.design}>
+                                    <div className="col-md-6 mb-2">
+                                        <div className={styles.box}>
                                             <h5>
-                                                <i className="fa fa-check mx-2" aria-hidden="true"/> DevOps
+                                                <span className={styles.iconDesign}>
+                                                    <i className="fa fa-check" aria-hidden="true"/>
+                                                </span>
+                                                Responsive Design
                                             </h5>
                                         </div>
                                     </div>
-                                </div>
-
-                                <div className="row">
-                                    <div className="col-md-4">
-                                        <Image src={djangoRest}/>
+                                    <div className="col-md-6 mb-2">
+                                        <div className={styles.box}>
+                                            <h5>
+                                                <span className={styles.iconDesign}>
+                                                    <i className="fa fa-check" aria-hidden="true"/>
+                                                </span>
+                                                React Development
+                                            </h5>
+                                        </div>
                                     </div>
-                                    <div className="col-md-4">
-                                        <Image src={djangoRest}/>
+                                    <div className="col-md-6 mb-2">
+                                        <div className={styles.box}>
+                                            <h5>
+                                                <span className={styles.iconDesign}>
+                                                    <i className="fa fa-check" aria-hidden="true"/>
+                                                </span>
+                                                Nextjs Development
+                                            </h5>
+                                        </div>
                                     </div>
-                                    <div className="col-md-4">
-                                        <Image src={django}/>
+                                    <div className="col-md-6 mb-2">
+                                        <div className={styles.box}>
+                                            <h5>
+                                                <span className={styles.iconDesign}>
+                                                    <i className="fa fa-check" aria-hidden="true"/>
+                                                </span>
+                                                Django Development
+                                            </h5>
+                                        </div>
                                     </div>
-                                    <div className="col-md-4">
-                                        <Image src={djangoRest}/>
+                                    <div className="col-md-6 mb-2">
+                                        <div className={styles.box}>
+                                            <h5>
+                                                <span className={styles.iconDesign}>
+                                                    <i className="fa fa-check" aria-hidden="true"/>
+                                                </span>
+                                                App Development
+                                            </h5>
+                                        </div>
                                     </div>
-                                    <div className="col-md-4">
-                                        <Image src={djangoRest}/>
+                                    <div className="col-md-6 mb-2">
+                                        <div className={styles.box}>
+                                            <h5>
+                                                <span className={styles.iconDesign}>
+                                                    <i className="fa fa-check" aria-hidden="true"/>
+                                                </span>
+                                                E-commerce Design
+                                            </h5>
+                                        </div>
                                     </div>
-                                    <div className="col-md-4">
-                                        <Image src={django}/>
+                                    <div className="col-md-6 mb-2">
+                                        <div className={styles.box}>
+                                            <h5>
+                                                <span className={styles.iconDesign}>
+                                                    <i className="fa fa-check" aria-hidden="true"/>
+                                                </span>
+                                                UX/UI Design
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 mb-2">
+                                        <div className={styles.box}>
+                                            <h5>
+                                                <span className={styles.iconDesign}>
+                                                    <i className="fa fa-check" aria-hidden="true"/>
+                                                </span>
+                                                Web Design
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 mb-2">
+                                        <div className={styles.box}>
+                                            <h5>
+                                                <span className={styles.iconDesign}>
+                                                    <i className="fa fa-check" aria-hidden="true"/>
+                                                </span>
+                                                Graphic Design
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 mb-2">
+                                        <div className={styles.box}>
+                                            <h5>
+                                                <span className={styles.iconDesign}>
+                                                    <i className="fa fa-check" aria-hidden="true"/>
+                                                </span>
+                                                Print Ready Design
+                                            </h5>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-5">
-                                <Image src={service2}/>
-                                {/*<div className="row">*/}
-
-
-                                {/*<div className="col-md-4 mb-2">*/}
-                                {/*<Image src={python}/>*/}
-                                {/*</div>*/}
-                                {/*<div className="col-md-4 mb-2">*/}
-                                {/*<Image src={nextjs}/>*/}
-                                {/*</div>*/}
-                                {/*<div className="col-md-4 mb-2">*/}
-                                {/*<Image src={reactNative}/>*/}
-                                {/*</div>*/}
-                                {/*<div className="col-md-4 mb-2">*/}
-                                {/*<Image src={react}/>*/}
-                                {/*</div>*/}
-                                {/*<div className="col-md-4 mb-2">*/}
-                                {/*<Image src={uiUx}/>*/}
-                                {/*</div>*/}
-                                {/*</div>*/}
+                            <div className="col-md-6">
+                                <div className="image">
+                                    <Image src={service2}/>
+                                </div>
+                                <div className="logo">
+                                    <div className="row">
+                                        <div className="col-md-2">
+                                            <Image src={python}/>
+                                        </div>
+                                        <div className="col-md-2">
+                                            <Image src={djangoRest}/>
+                                        </div>
+                                        <div className="col-md-2">
+                                            <Image src={nextjs}/>
+                                        </div>
+                                        <div className="col-md-2">
+                                            <Image src={react}/>
+                                        </div>
+                                        <div className="col-md-2">
+                                            <Image src={reactNative}/>
+                                        </div>
+                                        <div className="col-md-2">
+                                            <Image src={uiUx}/>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
