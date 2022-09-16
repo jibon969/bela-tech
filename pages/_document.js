@@ -1,4 +1,4 @@
-import {Html, Head, Main, NextScript} from 'next/document'
+import {Html, Head, Main, NextScript} from "next/document";
 
 export default function Document() {
     return (
@@ -10,8 +10,8 @@ export default function Document() {
                 integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
                 crossOrigin="anonymous"
             />
-            <link
-                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+            <link rel="stylesheet"
+                  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
             <link rel="stylesheet"
                   href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css"/>
         </Head>
@@ -20,5 +20,5 @@ export default function Document() {
         <NextScript/>
         </body>
         </Html>
-    )
+    );
 }
